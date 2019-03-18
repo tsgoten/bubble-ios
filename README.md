@@ -1,2 +1,4 @@
 # Bubble iOS Client
-Mobile app to help students socialize based on location. 
+## Website
+Visit [BubbleApp.io](https://bubbleapp.io/) to learn more about our application. You can also download the Android application from our website.
+## More to Come!
