@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pbq-k5-va9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notifications-->
+        <scene sceneID="evV-0x-B3o">
+            <objects>
+                <viewController id="2ad-sG-Fhf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R0I-Vx-8XR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SKz-xX-R4a"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notifications" id="ig2-Yu-cQG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b7y-jW-QWm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="546" y="150"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="cQQ-ik-XCC">
+            <objects>
+                <viewController id="ABI-U2-bZd" customClass="HomeViewController" customModule="Bubble" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oHA-Yz-FuF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4Lv-1B-SBJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="618" id="Dhe-4B-Y2I"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QZo-eY-Kjl" firstAttribute="trailing" secondItem="4Lv-1B-SBJ" secondAttribute="trailing" id="Bwa-kl-PUx"/>
+                            <constraint firstItem="4Lv-1B-SBJ" firstAttribute="leading" secondItem="QZo-eY-Kjl" secondAttribute="leading" id="GkO-uO-5h8"/>
+                            <constraint firstItem="QZo-eY-Kjl" firstAttribute="bottom" secondItem="4Lv-1B-SBJ" secondAttribute="bottom" id="NhI-E9-71p"/>
+                            <constraint firstItem="4Lv-1B-SBJ" firstAttribute="centerX" secondItem="oHA-Yz-FuF" secondAttribute="centerX" id="iBn-Ji-nQQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QZo-eY-Kjl"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="PPc-vf-CSI"/>
+                    <connections>
+                        <outlet property="mapView" destination="4Lv-1B-SBJ" id="B5O-kU-zx8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1a-Wr-ZIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.79999999999995" y="-516.79160419790105"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lq0-Km-UDv">
+            <objects>
+                <tabBarController id="pbq-k5-va9" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bHg-2V-rMD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ABI-U2-bZd" kind="relationship" relationship="viewControllers" id="hZz-nL-g1q"/>
+                        <segue destination="2ad-sG-Fhf" kind="relationship" relationship="viewControllers" id="mvO-zc-0G9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGp-er-4fH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-406" y="-186"/>
+        </scene>
+    </scenes>
+</document>
