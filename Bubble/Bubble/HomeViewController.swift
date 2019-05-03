@@ -13,7 +13,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        mapView.setCenter(<#T##coordinate: CLLocationCoordinate2D##CLLocationCoordinate2D#>, animated: true)
+        mapView.setCenter(currentLocation, animated: true)
         // Do any additional setup after loading the view, typically from a nib.
     }
     
