@@ -8,24 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		6046943E227C9A490027428F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046943D227C9A490027428F /* AppDelegate.swift */; };
-		60469440227C9A490027428F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6046943F227C9A490027428F /* ViewController.swift */; };
 		60469443227C9A490027428F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60469441227C9A490027428F /* Main.storyboard */; };
 		60469446227C9A490027428F /* Bubble.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60469444227C9A490027428F /* Bubble.xcdatamodeld */; };
 		60469448227C9A550027428F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60469447227C9A550027428F /* Assets.xcassets */; };
 		6046944B227C9A550027428F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60469449227C9A550027428F /* LaunchScreen.storyboard */; };
 		60469453227CA4820027428F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60469452227CA4820027428F /* HomeViewController.swift */; };
+		8B7FEA9622B856D90014CEC1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B7FEA9522B856D90014CEC1 /* Podfile */; };
+		8BBE5E0922B85E9400E0D71B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BBE5E0822B85E9400E0D71B /* GoogleService-Info.plist */; };
+		8BBE5E0B22B85F1200E0D71B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE5E0A22B85F1200E0D71B /* Constants.swift */; };
+		8BBE5E0D22B86E8F00E0D71B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE5E0C22B86E8F00E0D71B /* ChatViewController.swift */; };
+		A59BBD12BFDEC82DB66160E5 /* Pods_Bubble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C769790F2703077E6249B36C /* Pods_Bubble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6046943A227C9A490027428F /* Bubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6046943D227C9A490027428F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6046943F227C9A490027428F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60469442227C9A490027428F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60469445227C9A490027428F /* Bubble.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bubble.xcdatamodel; sourceTree = "<group>"; };
 		60469447227C9A550027428F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6046944A227C9A550027428F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6046944C227C9A550027428F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60469452227CA4820027428F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6ACE9EA18B63652F2803D580 /* Pods-Bubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bubble/Pods-Bubble.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5D53E7DE2C2BB5B22423E9 /* Pods-Bubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bubble.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bubble/Pods-Bubble.release.xcconfig"; sourceTree = "<group>"; };
+		8B7FEA9522B856D90014CEC1 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8BBE5E0522B85ADC00E0D71B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8BBE5E0822B85E9400E0D71B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8BBE5E0A22B85F1200E0D71B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BBE5E0C22B86E8F00E0D71B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C769790F2703077E6249B36C /* Pods_Bubble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bubble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +44,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59BBD12BFDEC82DB66160E5 /* Pods_Bubble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32FB6D2EDCAFFB34EC27C6F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACE9EA18B63652F2803D580 /* Pods-Bubble.debug.xcconfig */,
+				6D5D53E7DE2C2BB5B22423E9 /* Pods-Bubble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60469431227C9A490027428F = {
 			isa = PBXGroup;
 			children = (
+				8BBE5E0A22B85F1200E0D71B /* Constants.swift */,
+				8BBE5E0522B85ADC00E0D71B /* Bridging-Header.h */,
+				8B7FEA9522B856D90014CEC1 /* Podfile */,
 				6046943C227C9A490027428F /* Bubble */,
 				6046943B227C9A490027428F /* Products */,
+				32FB6D2EDCAFFB34EC27C6F3 /* Pods */,
+				C13497CD08258C946ADD0DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +85,24 @@
 			isa = PBXGroup;
 			children = (
 				6046943D227C9A490027428F /* AppDelegate.swift */,
-				6046943F227C9A490027428F /* ViewController.swift */,
 				60469452227CA4820027428F /* HomeViewController.swift */,
 				60469441227C9A490027428F /* Main.storyboard */,
+				8BBE5E0C22B86E8F00E0D71B /* ChatViewController.swift */,
 				60469447227C9A550027428F /* Assets.xcassets */,
 				60469449227C9A550027428F /* LaunchScreen.storyboard */,
 				6046944C227C9A550027428F /* Info.plist */,
+				8BBE5E0822B85E9400E0D71B /* GoogleService-Info.plist */,
 				60469444227C9A490027428F /* Bubble.xcdatamodeld */,
 			);
 			path = Bubble;
+			sourceTree = "<group>";
+		};
+		C13497CD08258C946ADD0DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C769790F2703077E6249B36C /* Pods_Bubble.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6046944F227C9A550027428F /* Build configuration list for PBXNativeTarget "Bubble" */;
 			buildPhases = (
+				3406E09D6461B0AC180E7B88 /* [CP] Check Pods Manifest.lock */,
 				60469436227C9A490027428F /* Sources */,
 				60469437227C9A490027428F /* Frameworks */,
 				60469438227C9A490027428F /* Resources */,
+				A8D7CA4D376E3382A7AD27E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +167,80 @@
 			files = (
 				6046944B227C9A550027428F /* LaunchScreen.storyboard in Resources */,
 				60469448227C9A550027428F /* Assets.xcassets in Resources */,
+				8BBE5E0922B85E9400E0D71B /* GoogleService-Info.plist in Resources */,
+				8B7FEA9622B856D90014CEC1 /* Podfile in Resources */,
 				60469443227C9A490027428F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3406E09D6461B0AC180E7B88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bubble-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D7CA4D376E3382A7AD27E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bubble/Pods-Bubble-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bubble/Pods-Bubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60469436227C9A490027428F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BBE5E0B22B85F1200E0D71B /* Constants.swift in Sources */,
 				60469446227C9A490027428F /* Bubble.xcdatamodeld in Sources */,
-				60469440227C9A490027428F /* ViewController.swift in Sources */,
 				6046943E227C9A490027428F /* AppDelegate.swift in Sources */,
+				8BBE5E0D22B86E8F00E0D71B /* ChatViewController.swift in Sources */,
 				60469453227CA4820027428F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,37 +385,41 @@
 		};
 		60469450227C9A550027428F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACE9EA18B63652F2803D580 /* Pods-Bubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7Q9H673YK;
+				DEVELOPMENT_TEAM = LBFY2YG99U;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bubble.ios.tarang.Bubble;
+				PRODUCT_BUNDLE_IDENTIFIER = bubble.ios.team.Bubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		60469451227C9A550027428F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5D53E7DE2C2BB5B22423E9 /* Pods-Bubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P7Q9H673YK;
+				DEVELOPMENT_TEAM = LBFY2YG99U;
 				INFOPLIST_FILE = Bubble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bubble.ios.tarang.Bubble;
+				PRODUCT_BUNDLE_IDENTIFIER = bubble.ios.team.Bubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
